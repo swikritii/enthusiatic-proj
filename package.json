@@ -1,0 +1,24 @@
+{
+  "name": "enthusiastic-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.149",
+    "@mui/material": "^5.14.14",
+    "next": "13.5.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-ui": "^1.0.0-beta.32"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}

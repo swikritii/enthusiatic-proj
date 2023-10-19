@@ -1,0 +1,77 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap"); */
+
+@tailwind base;
+
+@font-face {
+  font-family: 'Metropolis Regular';
+  src: url('/fonts/Metropolis-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis Light';
+  src: url('/fonts/Metropolis-Light.otf') format('opentype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis Medium';
+  src: url('/fonts/Metropolis-Medium.otf') format('opentype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis Semi Bold';
+  src: url('/fonts/Metropolis-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/fonts/Metropolis-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply the font to an element */
+.custom-font {
+  font-family: 'Metropolis', sans-serif;
+}
+
+:root {
+  --linear-gradient-white: linear-gradient(to bottom, #ffffff0a, #ffffff0a);
+  --gradient-purplishWhiteVar: linear-gradient(96deg, #dddcff, #c1bfff);
+  --radial-blue-gradient-left: radial-gradient(circle at 0%, rgb(70 122 255 / 24%), rgba(255, 255, 255, 0) 28%);
+  --modal-boxShadow: 0 0 30px #D9D9D9;
+  --modal-width-desktop: calc(100vw - 200px);
+  --modal-width-tablet: calc(100vw - 100px);
+  --modal-width-mobile: calc(100vw - 50px);
+  --modal-height-desktop: calc(100vh - 110px);
+  --modal-height-mobile: calc(100vh - 60px);
+  --modal-header-right: calc(100% - 164px);
+  --modal-header-right-title-width: calc(100% - 13rem);
+  --scrollable-modalbody-desktop-lg: calc(100vh - 43vh);
+  --scrollable-modalbody-tablet: calc(100vh - 52vh);
+  --scrollable-modalbody-phablet: calc(100vh - 23vh);
+  --scrollable-modalbody-mobile: calc(100vh - 52vh);
+
+}
+
+body {
+  @apply text-base relative;
+  font-family: "Metropolis Regular";
+  scroll-behavior: smooth;
+  font-weight: 400;
+  letter-spacing: -0.15px;
+}
+
+.heading-h3{
+  @apply text-lg;
+}
+.heading-h4{
+  @apply text-md;
+}
